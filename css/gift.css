@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*섹션 영역*/
+section{
+	clear: both;
+	width: 90%;
+	height: 90%;
+	float: right;
+	position: relative;
+	text-align: center;
+	top: 0;
+	right: 0;
+}
+/*추천 상자*/
+.recommend{
+	width: 80%;
+	height: 260px;
+	margin-top: 100px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	position: relative;
+	background-color: #fff;
+}
+.reco_title{
+	width: 100%;
+	height: 30px;
+	margin: 30px;
+	overflow: hidden;
+	text-align: left;
+	font-size: 1.3em;
+}
+.reco_icons{
+	width: 90%;
+	height: 120px;
+	float: left;
+	position: absolute;
+	top: 35%;
+	left: 5%;
+}
+
+.reco_icons a{
+	color: #333;
+}
+
+.reco_icons a:hover{
+	text-decoration: underline;
+}
+
+.reco_icon{
+	width: 100px;
+	height: 120px;
+	float: left;
+	overflow: hidden;
+	margin: 20px 37px;
+	font-size: 1em;
+	font-weight: bold;
+}
+.reco_icon img{
+	width: 90px;
+	height: 90px;
+	margin-bottom: 10px;
+}
+.reco_text{
+	width: 100px;
+	height: 20px;
+}
+
+/*상품 진열부*/
+.goods_wrap{
+	width: 100%;
+	overflow: hidden;
+}
+
+.goods_category{
+	width: 100%;
+	height:800px;
+	overflow: hidden;
+	margin: 150px 0;
+}
+
+.cate_title{
+	width: 100%;
+	float: left;
+	margin-left: 150px;
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.moreview{
+	width: 40%;
+	height: 25px;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+
+.moreview span{
+	font-size: 14px;
+	color: #707070;
+	font-weight: normal;
+	position: absolute;
+	top:10px;
+	left: 270px;
+}
+.moreview span:hover{
+	text-decoration: underline;
+}
+.moreview img{
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 7px;
+	left: 310px;
+}
+
+.goods_box{
+	width: 100%;
+	height:360px;
+	float: left;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.goods_con{
+	width: 300px;
+	height: 360px;
+	float: left;
+	margin-left: 50px;
+}
+
+.goods_con a{
+	color: #000;
+}
+
+.goods_box>div:nth-child(1){
+	margin-left: 180px;
+}
+.best_img{
+	width: 250px;
+	height: 250px;
+	position: relative;
+}
+.best_goods img{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.best_cart img{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.goods_img img{
+	width: 250px;
+	height: 250px;
+}
+.goods_title{
+	margin-top: 10px;
+	font-size: 1.1em;
+}
+.goods_price{
+	margin-top: 5px;
+	font-weight: bold;
+}

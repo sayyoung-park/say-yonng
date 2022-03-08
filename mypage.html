@@ -1,0 +1,490 @@
+ <!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>오설록, 차와 제주가 선사하는 삶의 아름다움</title>
+		<link href="css/mypage.css" rel="stylesheet" type="text/css">
+		<link href="css/default.css" rel="stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="javscript/script.js" defer type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<div class="top">
+				<div class="top-sc">
+					<input type="search" name="q" placeholder="2월엔 두 배! 인기 티제품 1+1 모음">
+					<input type="image" src="images/icons/baseline_search_black_48dp.png" alt="검색">
+				</div>
+				<div class="top-menu">
+					<ul class="toolbar">
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">회원가입</a></li>
+						<li><a href="mypage.html" target="_self">마이페이지</a></li>
+						<li><a onClick="alert('죄송합니다, 현재 준비중입니다.')"><img src="images/icons/216477_shopping_cart_icon.png" alt="장바구니"></a></li>
+					</ul>
+				</div>
+			</div>
+			</header>
+			<div class="navwrap">
+				<nav>
+					<div class="logo">
+						<a href="index.html"><img src="images/logo/logo_white.png" alt="오설록 로고"></a>
+					</div>
+						<ul class="navi">
+							<li><a href="teashop.html" target="_self">티샵</a>
+								<ul class="submenu">
+									<li><a href="teashop.html" target="_self">티/티푸드</a></li>
+									<li><a href="teawear.html" target="_self">티웨어</a></li>
+									<li><a href="gift.html" target="_self">선물하기</a></li>
+									<li><a href="dada.html" target="_self">다다일상(정기구독)</a></li>
+								</ul>
+							</li>
+							<li><a href="event.html" target="_self">이벤트</a>
+								<ul class="submenu">
+									<li><a href="event.html" target="_self">이벤트</a></li>
+									<li><a href="event_on.html" target="_self">온라인 쇼핑혜택</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="sorry.html" target="_self">스토리</a>
+								<!--<a href="history.html" target="_self"></a>-->
+								<ul class="submenu">
+									<li>
+										<a href="sorry.html" target="_self">Since 1979</a>
+										<!--<a href="history.html" target="_self"></a>-->
+									</li>
+									<li>
+										<a href="sorry.html" target="_self">오설록 차밭 이야기</a>
+										<!--<a href="teastory.html" target="_self"></a>-->
+									</li>
+									<li>
+										<a href="sorry.html" target="_self">티하우스 메뉴</a>
+										<!--<a href="teahouse.html" target="_self"></a>-->
+									</li>
+									<li>
+										<a href="sorry.html" target="_self">차 알아가기</a>
+										<!--<a href="info.html" target="_self"></a>-->
+									</li>
+									<li>
+										<a href="sorry.html" target="_self">매거진</a>
+										<!--<a href="news.html" target="_self"></a>-->
+									</li>
+								</ul>
+							</li>
+							<li><a href="sorry.html" target="_self">제주 티 뮤지엄</a>
+								<!--<a href="museum.html" target="_self"></a>-->
+							</li>
+						</ul>
+				</nav>
+				</div>
+		<section>	
+			<div class="top_title">
+				<div class="main_title">
+					마이페이지
+				</div>
+			</div>
+			<div class="category">
+				<ul class="menu_navi">
+					<li><a href="#">정보관리·수정</a></li>
+					<li><a href="#">주문·배송조회</a></li>
+					<li><a href="#">다다일상 관리</a></li>
+					<li><a href="#">쿠폰·상품권</a></li>
+					<li><a href="#">포인트</a></li>
+					<li><a href="#">위시리스트</a></li>
+					<li><a href="#">선물함</a></li>
+					<li><a href="#">1:1 상담내역</a></li>
+					<li><a href="#">티스톤 예약</a></li>
+				</ul>
+			</div>
+			
+			<div class="order">
+				<input id="tab1" type="radio" name="tabs" checked> 
+				<label for="tab1">일반주문</label>
+
+				<input id="tab2" type="radio" name="tabs">
+				<label for="tab2">다다일상/정기배송</label>
+				<div id="order_content1" style="margin-bottom:20px;">
+					<div class="order_title">
+						<span>주문/배송조회</span> (취소/변경/교환/반품 신청)
+					</div>
+					<div class="order_current">
+						<div class="od_state">
+							<ul>
+								<li>주문취소 <span>0</span></li>
+								<li>교환 <span>0</span></li>
+								<li>반품 <span>0</span></li>
+							</ul>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								주문접수
+							</div>
+							<div class="deli_icon">
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="오른쪽 화살표">
+							</div>
+							<div class="deli_number">
+								0
+							</div>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								결제완료
+							</div>
+							<div class="deli_icon">
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="오른쪽 화살표">
+							</div>
+							<div class="deli_number">
+								0
+							</div>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								상품준비
+							</div>
+							<div class="deli_icon">
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="오른쪽 화살표">
+							</div>
+							<div class="deli_number">
+								0
+							</div>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								배송중
+							</div>
+							<div class="deli_icon">
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="오른쪽 화살표">
+							</div>
+							<div class="deli_number">
+								0
+							</div>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								배송완료
+							</div>
+							<div class="deli_icon">
+							</div>
+							<div class="deli_number">
+								<a href="#">6</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="order_content2" style="margin-bottom:20px;">
+					<div class="order_title">
+						<span>주문/배송조회</span> (취소/변경/교환/반품 신청)
+					</div>
+					<div class="order_current">
+						<div class="od_state">
+							<ul>
+								<li>주문취소 <span>0</span></li>
+								<li>교환 <span>0</span></li>
+								<li>반품 <span>0</span></li>
+							</ul>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								주문접수
+							</div>
+							<div class="deli_icon">
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="오른쪽 화살표">
+							</div>
+							<div class="deli_number">
+								0
+							</div>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								결제완료
+							</div>
+							<div class="deli_icon">
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="오른쪽 화살표">
+							</div>
+							<div class="deli_number">
+								0
+							</div>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								상품준비
+							</div>
+							<div class="deli_icon">
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="오른쪽 화살표">
+							</div>
+							<div class="deli_number">
+								0
+							</div>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								배송중
+							</div>
+							<div class="deli_icon">
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="오른쪽 화살표">
+							</div>
+							<div class="deli_number">
+								0
+							</div>
+						</div>
+						<div class="od_deli">
+							<div class="deli_text">
+								배송완료
+							</div>
+							<div class="deli_icon">
+							</div>
+							<div class="deli_number">
+								<a href="#">1</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="my_shopping">
+				<div class="my_grade">
+					<div class="grade_title">
+						나의 쇼핑등급
+					</div>
+					<div class="grade_con">
+						<div class="grade_img">
+							<img src="images/icons/ico_vip.png" alt="vip">	
+						</div>
+						<div class="grade_text">
+							ㅇㅇㅇ님의 쇼핑등급은 VIP입니다.
+						</div>
+						<div class="grade_btn">
+								<button onClick="location.href='#'">등급별 혜택</button>
+							<button onClick="location.href='#'">회원정보 수정</button>
+						</div>
+					</div>
+				</div>
+				<div class="my_point">
+					<div class="beauty">
+						<a href="#"><img src="images/icons/label_beauty65.png" alt="뷰티포인트"></a>
+						<p>뷰티포인트</p>
+						<span>3,000</span>
+					</div>
+					<div class="teapoint">
+						<a href="#"><img src="images/icons/teapoint.png" alt="찻잎포인트"></a>
+						<p>찻잎포인트</p>
+						<span>500</span>
+					</div>
+					<div class="mobile">
+						<a href="#"><img src="images/icons/label_coupon65.png" alt="모바일 상품권"></a>
+						<p>모바일 상품권</p>
+						<span>50,000</span>
+					</div>
+				</div>
+			</div>
+			<div class="coupons">
+				<div class="cou_title">
+						할인쿠폰 (2)
+				</div>
+				<div class="moreview">
+							<a href="#">
+								<span>더보기</span>
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="더보기">
+							</a>
+					</div>
+					<div class="cou_content">
+						<div class="coupon">
+							<div class="coupon_img">
+								<img src="images/coupon/pop_cpn_weekend.png" alt="주말 전용 쿠폰">
+							</div>
+							<div class="coupon_text">
+								<div class="coupon_title">
+									주말 전용 쿠폰
+								</div>
+							</div>
+						</div>
+						<div class="coupon">
+							<div class="coupon_img">
+								<img src="images/coupon/pop_cpn_best.png" alt="베스트 티 할인 쿠폰">
+							</div>
+							<div class="coupon_text">
+								<div class="coupon_title">
+									베스트 티 할인 쿠폰
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="buy_history">
+					<div class="buy_title">
+						최근 주문내역
+					</div>
+					<div class="moreview">
+							<a href="#">
+								<span>더보기</span>
+								<img src="images/icons/baseline_keyboard_arrow_right_black_48dp.png" alt="더보기">
+							</a>
+					</div>
+					<table>
+						<th>주문일자</th>
+						<th>상품명</th>
+						<th>구매개수</th>
+						<th>배송현황</th>
+						<tr>
+							<td>2022/02/19</td>
+							<td>레드파파야블랙티 20입(피라미드) 외 3</td>
+							<td>4</td>
+							<td>배송</td>
+						</tr>
+						<tr>
+							<td>2022/02/15</td>
+							<td>산호섬 20입(아이스티)</td>
+							<td>1</td>
+							<td>배송완료</td>
+						</tr>
+						<tr>
+							<td>2022/02/09</td>
+							<td>웨딩그린티 20입(피라미드) 외 6</td>
+							<td>7</td>
+							<td>배송완료</td>
+						</tr>
+						<tr>
+							<td>2022/02/03</td>
+							<td>레드파파야블랙티 20입(피라미드) 외 1</td>
+							<td>2</td>
+							<td>배송완료</td>
+						</tr>
+						
+					</table>
+				</div>
+		</section>
+				
+<!-- 로그인/회원가입 모달 시작 -->
+<!--로그인 모달-->
+			<div id="modal_1">
+			<div class="modal_up">
+				<div class="btn">
+					<img src="images/icons/btn_title_close.png" alt="닫기">
+				</div>
+				<div class="uptitle">
+					Login
+				</div>
+				<div class="upbody">
+					아모레퍼시픽 뷰티포인트 통합회원 아이디로 로그인해주세요.
+					<form name="login" action="#" method="get">
+						<input type="text" name="uid" placeholder="아이디를 입력해주세요.">
+						<input type="password" name="upass" placeholder="비밀번호를 입력해주세요.(영문, 숫자, 특수문자 조합)">
+						<button onClick="location.href='#'">로그인</button>
+					</form>
+					<div class="log_or">or</div>
+					<div class="snslogin">
+						<div class="facebook">
+							<a href="https://www.facebook.com/" target="_blank">
+								<img src="images/icons/btn_login_fb.png" alt="페이스북 로그인">
+							</a>
+						</div>
+						<div class="naver">
+							<a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com" target="_blank">
+							<img src="images/icons/btn_login_na.png" alt="네이버 로그인">
+							</a>
+						</div>
+						<div class="kakao">
+							<a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Flogins.daum.net%2Faccounts%2Fksso.do%3Frescue%3Dtrue%26url%3Dhttps%253A%252F%252Fwww.daum.net" target="_blank">
+							<img src="images/icons/btn_login_ka.png" alt="카카오톡 로그인"></a>
+						</div>
+						<div class="pass">
+							<a href="https://www.passauth.co.kr/main" target="_blank">
+								<img src="images/icons/btn_login_mobile.png" alt="모바일 로그인">
+							</a>
+						</div>
+					</div>
+					<div class="login_join">
+						아이디 찾기 / 비밀번호 찾기 / 비회원 주문 조회
+						<button onClick="location.href='#'">회원가입</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--회원가입 모달-->
+		<div id="modal_2">
+			<div class="modal_up2">
+				<div class="btn">
+					<img src="images/icons/btn_title_close.png" alt="닫기">
+				</div>
+				<div class="uptitle2">
+					Join us
+				</div>
+				<div class="upbody2">
+					<form name="login" action="#" method="get">
+						<div class="join_id">
+							아이디*<br/>
+							<input type="text" name="id">
+						</div>
+						<div class="join_pass">
+							비밀번호*<br/>
+							<input type="password" name="pass" placeholder="영문, 숫자, 특수문자 조합 8~15자">
+						</div>
+						<div class="pass_ck">
+							비밀번호 확인*<br/>
+							<input type="password" name="pass_check" placeholder="비밀번호를 다시 한 번 입력해주세요.">
+						</div>
+						<div class="join_mail">
+							이메일*<br/>
+							<input type="email" name="mail">
+						</div>
+						<div class="join_phone">
+							휴대폰번호(-제외)*<br/>
+							<input type="tel" name="number">
+							<button type="button">인증번호 전송</button>
+						</div>
+						<div class="phone_ck">
+							인증번호 입력*<br/>
+							<input type="text" name="number_check">
+						</div>
+						<div class="join_birth">
+							생년월일(8자리 입력)<br/>
+							<input type="text" name="birth">
+						</div>
+					</form>
+					<div class="join_checkbox">
+						<div>
+							<input type="checkbox" name="tos"> 이용약관 동의
+						</div>
+						<div>
+							<input type="checkbox" name="tos"> 개인정보 취급방침 동의
+						</div>
+						<div>
+							<input type="checkbox" name="tos"> 마케팅 정보 수신 동의
+						</div>
+						<button onClick="location.href='#'">회원가입</button>
+					</div>
+					</div>
+				</div>
+			</div>
+<!-- 로그인/회원가입 모달 끝 -->
+			
+		<footer>
+			<div class="bottom">
+			  <div class="bt_info">
+					<div class="site">
+						<ul>
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">서비스 이용약관</a></li>
+							<li><a href="#">개인정보 처리방침</a></li>
+							<li><a href="#">영상정보 처리방침</a></li>
+							<li><a href="#">뷰티포인트</a></li>
+							<li><a href="#">임직원할인</a></li>
+							<li><a href="sitemap.html" target="_self">사이트맵</a></li>
+							<li><a href="#">전자공고</a></li>
+						</ul>
+					</div>
+					<div class="copy">
+						<p>㈜ 오설록<br/>
+						대표이사:서혁제 주소:서울특별시 용산구 한강대로 100, 14층(한강로2가)<br/>
+						사업자등록번호: 390-87-01499 통신판매업신고번호:2019-서울용산-1173호 호스팅제공자: ㈜오설록<br/></p>
+
+						<p>(주)오설록은 오설록 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자 이며 통신판매의 당사자가 아닙니다.<br/>
+						따라서 입점판매자가 등록한 상품정보 및 거래에 대해 책임을 지지 않습니다.<br/></p>
+				  </div>
+				</div>
+				<div class="safety">
+					<img src="images/safety.JPG" alt="구매안전서비스">
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

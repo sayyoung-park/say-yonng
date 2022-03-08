@@ -1,0 +1,329 @@
+@charset "utf-8";
+@import url("default.css");
+/* CSS Document */
+
+/*섹션 영역*/
+section{
+	clear: both;
+	width: 90%;
+	height: 90%;
+	float: right;
+	position: relative;
+	text-align: center;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+/*이미지 슬라이드*/
+.imgslide{     
+	width: 100%;
+	height: 500px;
+}
+
+.imgs{
+	position: relative;
+	overflow: hidden;
+	height: 500px;
+}
+
+.imgs>img{
+	width: 100%;
+	position: absolute;
+}
+
+#slides {
+	width: 100%;
+	height: 450px;
+}
+
+#slides li {
+	display: none;
+}
+
+#slides li:first-child {
+	display: block;
+}
+
+#slides li img{
+	width: 1920px;
+	height: 500px;
+}
+
+#btn_slides{
+	text-align: center;
+}
+
+#btn_slides>a{
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.8em;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+#btn_slides a.off{
+	cursor: default;
+	opacity: 0.5;
+}
+
+
+/*상품 진열부*/
+.product{
+	width: 100%;
+	margin-top: 70px;
+}
+
+.pro_title{
+	width: 100%;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.goods_box{
+	width: 100%;
+	height:360px;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.goods_con{
+	width: 300px;
+	height: 360px;
+	float: left;
+	margin-left: 50px;
+}
+
+.goods_con a{
+	color: #000;
+}
+
+.goods_box>div:nth-child(1){
+	margin-left: 180px;
+}
+
+.goods_img img{
+	width: 250px;
+	height: 250px;
+}
+
+.goods_title{
+	margin-top: 10px;
+	font-size: 1.1em;
+}
+
+.goods_price{
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.goods_btn{
+	width: 100%;
+}
+.goods_btn button{
+	width: 220px;
+	height: 50px;
+	background: rgba(255,255,255,0);
+	border: 1px solid #707070;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+/*소형광고*/
+.ad_small{
+	width: 100%;
+	margin-top: 90px;
+	overflow: hidden;
+}
+/*다다일상*/
+.weekly_dada{
+	width: 90%;
+	height: 600px;
+	margin-top: 150px;
+	position: relative;
+	overflow: hidden;
+}
+.dada_text{
+	width: 50%;
+	height: 450px;
+	background-color: bisque;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.dada_text::-webkit-scrollbar {
+    width: 10px;
+}
+.dada_text::-webkit-scrollbar-thumb {
+    background-color: burlywood;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+.dada_text::-webkit-scrollbar-track {
+    background:rgba(255,255,255,0);
+    border-radius: 10px;
+}
+
+.dada_title{
+	width: 100%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 35px;
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.dada_con{
+	width: 100%;
+	height: 300px;
+	line-height: 1.5em;
+	float: left;
+	margin-top: 40px;
+	margin-left: 35px;
+	text-align: left;
+}
+.dada_btn button{
+	width: 200px;
+	height: 50px;
+	margin-top: 40px;
+	background: rgba(255,255,255,0);
+	border: 1px solid #707070;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+.dada_img{
+	width: 55%;
+	height: 450px;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	z-index: 1;
+}
+
+.dada_img img{
+	min-width: 850px;
+	min-height: 530px;
+}
+
+/*하단 대형광고*/
+.ad_big{
+	width: 100%;
+	height: 750px;
+	margin-top: 150px;
+	background-color: beige;
+	overflow: hidden;
+}
+.ad_text{
+	width: 50%;
+	height: 700px;
+	float: left;
+	margin-left: 100px;
+}
+.ad_title{
+	width: 100%;
+	float: left;
+	margin-top: 120px;
+	text-align: left;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.ad_con{
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+	text-align: left;
+}
+.ad_button{
+	width: 70%;
+	float: left;
+	margin-top: 40px;
+	
+}
+.ad_button button{
+	width: 380px;
+	height: 110px;
+	margin-top: 20px;
+	float: left;
+	border: none;
+	background: rgba(255,255,255,0);
+	cursor: pointer;
+}
+.ad_button img{
+	width: 100%;
+	height: 100%;
+}
+
+.ad_img{
+	width: 40%;
+	float: left;
+	margin-top: 35px;
+	overflow: hidden;
+}
+.ad_img img{
+	width: 500px;
+}
+/*상담 및 문의*/
+.hotline{
+	width: 100%;
+	height: 140px;
+	background-color: #DDD;
+	color: #333;
+	overflow: hidden;
+}
+.hotline p{
+	font-size: 0.9em;
+}
+.call{
+	width: 25%;
+	height: 140px;
+	float: left;
+	margin: 25px 0 0 70px;
+	text-align: left;
+}
+.call h3{
+	margin: 5px 0;
+	font-size: 2.5em;
+}
+.mail{
+	width: 30%;
+	height: 140px;
+	float: left;
+	margin-top: 25px;
+	text-align: left;
+}
+.mail h3{
+	margin: 5px 0;
+	font-size: 1.7em;
+}
+.mail span{
+	font-weight: bold;
+}
+
+.icons{
+	width: 40%;
+	height: 140px;
+	float: left;
+	overflow: hidden;
+/*	background-color: aquamarine;*/
+}
+.icon{
+	width: 20%;
+	margin: 30px 0 0 10px;
+	float: left;
+	overflow: hidden;
+}
+.icon img{
+	width: 60px;
+}
+.icon button{
+	width: 100px;
+	margin-top: 10px;
+	border: none;
+	background: rgba(255,255,255,0);
+	font-size: 1.1em;
+	cursor: pointer;
+}

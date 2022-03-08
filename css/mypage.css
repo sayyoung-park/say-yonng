@@ -1,0 +1,354 @@
+@charset "utf-8";
+@import url("default.css");
+/* CSS Document */
+
+/*섹션 영역*/
+section{
+	clear: both;
+	width: 90%;
+	float: right;
+	position: relative;
+	text-align: center;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.top_title{
+	width: 100%;
+	height: 200px;
+	text-align: left;
+	background: rgb(255,255,255);
+	background: linear-gradient(to top, rgba(255,255,255,0) 0%, rgba(213,222,189,0.7) 100%);
+}
+.main_title{
+	width: 90%;
+	height: 40px;
+	float: left;
+	margin-top: 110px;
+	margin-left: 100px;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.category{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: #fff;
+}
+.menu_navi{
+	width: 100%;
+	height: 50px;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #707070;
+}
+.menu_navi li{
+	display: inline-block;
+	margin: 15px 50px;
+	font-size: 1.1em;
+}
+.menu_navi li a{
+	color: #333;
+}
+.menu_navi li a:hover{
+	color: #FFCF91;
+}
+
+/*탭 메뉴*/
+.order {
+	width: 80%;            
+	background: #fff;
+	margin-top: 100px;
+	border-bottom: 1px solid #ddd;
+}
+ 
+.order>div {
+	display: none;
+	padding: 20px 0 0;
+	border-top: 1px solid #ddd;
+}
+ 
+.order>input {
+	display: none;
+}
+ 
+.order>label {
+	display: inline-block;
+	width: 40%;
+	padding: 15px 25px;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #707070;
+	background-color:#EDEDED;
+}
+ 
+.order>label:hover {
+	cursor: pointer;
+}
+ 
+.order>input:checked + label {
+	color: #333;
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #ffffff;
+	background-color: #fff;
+}
+ 
+#tab1:checked ~ #order_content1, #tab2:checked ~ #order_content2{
+	display: block
+}
+
+.order_title{
+	width: 100%;
+	text-align: left;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.order_title span{
+	margin-left: 20px;
+	font-size: 1.3em;
+}
+.order_current{
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+}
+.od_state{
+	width: 10%;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.od_state li{
+	height: 30px;
+	text-align: left;
+}
+
+.od_state li>span{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.od_deli{
+	width: 18%;
+	float: left;
+	margin-top: 30px;
+}
+.deli_text{
+	width: 70%;
+	float: left;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 12px;
+	color: #333;
+}
+.deli_icon{
+	width: 30%;
+	float: left;
+}
+.deli_icon img{
+	width: 40px;
+	height: 40px;
+}
+.deli_number{
+	clear: both;
+	font-size: 3em;
+	font-weight: bold;
+	margin-left: -70px;
+}
+.deli_number a{
+	margin-top: 40px;
+	color: #86B979;
+	text-decoration: underline;
+}
+/*나의 쇼핑등급*/
+.my_shopping{
+	width: 80%;
+	height: 270px;
+	overflow: hidden;
+	margin-top: 70px;
+	border: 1px solid #ddd;
+}
+.my_grade{
+	width: 40%;
+	height: 270px;
+	overflow: hidden;
+	float: left;
+	border-right: 1px solid #ddd;
+}
+.grade_title{
+	width: 90%;
+	text-align: left;
+	margin: 30px;
+	font-size: 1.3em;
+}
+.grade_img{
+	width: 40%;
+	float: left;
+}
+.grade_img img{
+	width: 100px;
+	margin: 30px 50px;
+}
+.grade_text{
+	width: 60%;
+	float: right;
+	margin-top: 30px;
+}
+.grade_btn{
+	margin-top: 20px;
+	float: left;
+	overflow: hidden;
+}
+.grade_btn button{
+	width: 130px;
+	height: 40px;
+	float: left;
+	margin: 0 5px;
+	background: rgba(255,255,255,0);
+	border: 1px solid #707070;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+.my_point{
+	width: 55%;
+	height: 250px;
+	overflow: hidden;
+	float: right;
+}
+.my_point div{
+	width: 30%;
+	height: 200px;
+	margin-top: 40px;
+	overflow: hidden;
+	float: left;
+}
+.my_point img{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.my_point p{
+	font-size: 1.1em;
+	margin: 10px auto;
+}
+.my_point span{
+	font-size: 3em;
+	font-weight: bold;
+}
+.beauty span{
+	color:#70B5FF;
+}
+.teapoint span{
+	color:#7AA86A;
+}
+.mobile span{
+	color:#C13E40;
+}
+/*쿠폰*/
+.coupons{
+	width: 80%;
+	height: 330px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	margin: 90px auto;
+	}
+
+.cou_title{
+	width: 55%;
+	text-align: left;
+	margin: 30px;
+	font-size: 1.3em;
+	float: left;
+}
+.moreview{
+	width: 40%;
+	height: 25px;
+	float: right;
+	position: relative;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.moreview span{
+	font-size: 14px;
+	color: #707070;
+	font-weight: normal;
+	position: absolute;
+	top:10px;
+	left: 440px;
+}
+.moreview span:hover{
+	text-decoration: underline;
+}
+.moreview img{
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 7px;
+	left: 480px;
+}
+
+.cou_content{
+	clear: both;
+	width: 100%;
+	height: 300px;
+	margin: 40px;
+}
+.coupon{
+	width: 25%;
+	height: 250px;
+	float: left;
+	margin: 20px;
+}
+.coupon_img{
+	width: 100%;
+	overflow: hidden;
+}
+.coupon_img img{
+	width: 250px;
+	overflow: hidden;
+}
+.coupon_text{
+	width: 90%;
+}
+.coupon_title{
+	width: 100%;
+	margin: 10px auto;
+	font-weight: bold;	
+}
+
+/*최근 주문내역*/
+.buy_history{
+	width: 80%;
+	height: 310px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	margin: 90px auto;
+	}
+
+.buy_title{
+	width: 55%;
+	text-align: left;
+	margin: 30px;
+	font-size: 1.3em;
+	float: left;
+}
+
+.buy_history table{
+	width: 1350px;
+	border-collapse: collapse;
+	color: #333;
+	font-size: 1.1em;
+	margin-right: 50px;
+}
+.buy_history table th{
+	padding: 10px 0;
+	font-size: 1em;
+}
+.buy_history table td{
+	height: 20px;
+	padding: 10px 0;
+	font-size: 0.9em;
+}

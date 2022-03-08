@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url("default.css");
+/* CSS Document */
+
+/*섹션 영역*/
+section{
+	clear: both;
+	width: 90%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.sorry{
+	width: 80%;
+	height: 800px;
+	margin-left: 250px;
+}
+
+.sorry_img{
+	width: 60%;
+	height: 550px;
+	margin-top: 100px;
+	overflow: hidden;
+}
+.sorry_img{
+	width: 60%;
+}
+.sorry_text{
+	width: 100%;
+	height: 200px;
+	margin-top: 30px;
+}
+.sorry_title{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px auto;
+}
